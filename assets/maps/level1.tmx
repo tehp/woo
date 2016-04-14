@@ -424,38 +424,11 @@
     <property name="walking_speed" value="200"/>
    </properties>
   </object>
-  <object id="2" name="enemy0" type="ground_enemy" gid="146" x="177" y="208" width="35" height="35">
-   <properties>
-    <property name="direction" value="1"/>
-    <property name="group" value="enemies"/>
-    <property name="texture" value="slime_image"/>
-    <property name="walking_distance" value="100"/>
-    <property name="walking_speed" value="50"/>
-   </properties>
-  </object>
-  <object id="3" name="enemy1" type="flying_enemy" gid="146" x="370" y="88" width="35" height="35">
-   <properties>
-    <property name="direction" value="-1"/>
-    <property name="group" value="enemies"/>
-    <property name="texture" value="fly_spritesheet"/>
-    <property name="walking_distance" value="200"/>
-    <property name="walking_speed" value="75"/>
-   </properties>
-  </object>
   <object id="4" name="goal" type="goal" gid="148" x="594" y="315" width="35" height="35">
    <properties>
     <property name="group" value="goals"/>
     <property name="next_level" value="assets/levels/level1.json"/>
     <property name="texture" value="goal_image"/>
-   </properties>
-  </object>
-  <object id="5" name="enemy2" type="ground_enemy" gid="146" x="587" y="173" width="35" height="35">
-   <properties>
-    <property name="direction" value="-1"/>
-    <property name="group" value="enemies"/>
-    <property name="texture" value="slime_image"/>
-    <property name="walking_distance" value="80"/>
-    <property name="walking_speed" value="50"/>
    </properties>
   </object>
  </objectgroup>
